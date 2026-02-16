@@ -1,0 +1,50 @@
+{
+    "person": {
+        "person gender": {
+            "cluster_1": {
+                "female": 17,
+                "male": 33,
+                "non-binary": 0,
+                "unknown": 0
+            }
+        },
+        "person race": {
+            "cluster_1": {
+                "african american": 2,
+                "asian": 3,
+                "caucasian": 45,
+                "hispanic": 0,
+                "other": 0,
+                "unknown": 0
+            }
+        },
+        "person age": {
+            "cluster_1": {
+                "middle-aged": 0,
+                "old": 0,
+                "young": 50,
+                "unknown": 0
+            }
+        },
+        "person occupation": {
+            "cluster_1": {
+                "other": 10,
+                "software engineer": 40,
+                "student": 0,
+                "web developer": 0,
+                "unknown": 0
+            }
+        }
+    },
+    "laptop": {
+        "laptop brand": {
+            "cluster_1": {
+                "apple": 42,
+                "dell": 7,
+                "hp": 1,
+                "other": 0,
+                "unknown": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "person": {
+        "person race": {
+            "cluster_1": {
+                "american": 0,
+                "asian": 1,
+                "indian": 0,
+                "middle eastern": 0,
+                "other": 0,
+                "unknown": 0
+            }
+        }
+    }
+}
