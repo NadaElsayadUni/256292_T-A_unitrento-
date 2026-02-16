@@ -1,0 +1,26 @@
+{
+    "bias_proposal": [
+        {
+            "image_id": 467887,
+            "caption_id": 1111,
+            "caption": "A person in a high-tech lab",
+            "proposed_biases": {
+                "bias": [
+                    {
+                        "name": "person race",
+                        "refer_to": "person",
+                        "classes": [
+                            "Asian",
+                            "Indian",
+                            "American",
+                            "Middle Eastern",
+                            "Other"
+                        ],
+                        "question": "What race is the person in the picture?",
+                        "present_in_prompt": false
+                    }
+                ]
+            }
+        }
+    ]
+}

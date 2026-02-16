@@ -1,0 +1,35 @@
+{
+    "bias_proposal": [
+        {
+            "image_id": 467887,
+            "caption_id": 65472,
+            "caption": "A man working on his laptop computer at the table.",
+            "proposed_biases": {
+                "bias": [
+                    {
+                        "name": "Person Gender",
+                        "refer_to": "person",
+                        "classes": [
+                            "Male",
+                            "Female",
+                            "Non-Binary"
+                        ],
+                        "question": "What is the gender of the person in the picture?",
+                        "present_in_prompt": false
+                    },
+                    {
+                        "name": "Person Age",
+                        "refer_to": "person",
+                        "classes": [
+                            "Young",
+                            "Middle-Aged",
+                            "Old"
+                        ],
+                        "question": "How old is the person?",
+                        "present_in_prompt": false
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -154,7 +154,8 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-proposed_biases/coco
+# proposed_biases/coco
+proposed_biases/coco/3/coco_train_data.json
 proposed_biases/flickr_30k
 proposed_biases/stylegan3_ffhq/1
 results/
