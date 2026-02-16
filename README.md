@@ -89,7 +89,7 @@ python make_plots.py --generator sd-xl --dataset coco --mode generated
 Please chose the desired generator and dataset accordingly. Similarly to the bias detection step, you may chose the mode to be `original` to plot the results of the bias detection on real images.
 
 ### Additional Analysis Scripts
-Extended documentation for these scripts and the analysis workflow: [Google Doc](https://docs.google.com/document/d/1UdbIASxvy1N-EixYjgnocFOUngbQlNqsZf7CAsUrfqE/edit?tab=t.t6o13j5qg2qa).
+Extended documentation for these scripts and the analysis workflow: [Google Doc](https://drive.google.com/file/d/1LmF9H3zq-G--Tr04YS6Z5b3xDxYWMUfc/view?usp=sharing).
 
 The following scripts extend the pipeline with quantitative analysis and comparison plots. They expect result files that contain VQA outputs and `//data count` blocks (e.g. from running VQA and saving/aggregating results per prompt or sample size).
 
