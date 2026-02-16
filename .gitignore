@@ -163,7 +163,7 @@ results/VQA/flickr_30k/
 sd_generated_dataset/flickr_30k/
 # sd_generated_dataset/coco/train/sd-1.5/
 sd_generated_dataset/coco/train/sd-2/
-sd_generated_dataset/coco/train/sd-xl/
+# sd_generated_dataset/coco/train/sd-xl/
 openbias/
 weights/
 .vscode/
