@@ -160,7 +160,10 @@ proposed_biases/flickr_30k
 proposed_biases/stylegan3_ffhq/1
 results/VQA/coco/
 results/VQA/flickr_30k/
-sd_generated_dataset/
+sd_generated_dataset/flickr_30k/
+# sd_generated_dataset/coco/train/sd-1.5/
+sd_generated_dataset/coco/train/sd-2/
+sd_generated_dataset/coco/train/sd-xl/
 openbias/
 weights/
 .vscode/
