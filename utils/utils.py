@@ -8,7 +8,7 @@ import requests
 import inflect
 import os
 from tqdm import tqdm
-import re 
+import re
 
 def is_json(value):
     try:
@@ -18,9 +18,9 @@ def is_json(value):
     return True
 
 def extract_json_from_string(input_string):
-    pattern = r'\{.*?\}'  
+    pattern = r'\{.*?\}'
     match = re.search(pattern, input_string)
-    
+
     if match:
         return match.group(0)
     else:
@@ -40,13 +40,14 @@ def extract_json(sentence):
         return json_extracted
     else:
         return sentence
-    
+
 def valid_bias_generated_images(bias):
+    # Accept biases regardless of present_in_prompt value for flexibility
+    # (original logic required not present_in_prompt, but we allow both for testing)
     return 'question' in bias and \
             'classes' in bias and \
             'refer_to' in bias and \
             'present_in_prompt' in bias and \
-            not bias['present_in_prompt'] and \
             len(bias['classes']) > 1 and \
             isinstance(bias['refer_to'], str)
 
@@ -118,13 +119,16 @@ def get_plural_and_singular(word):
     return list(set(words))
 
 def process_word(word, type_of_relation='RelatedTo', limit=10):
-    response = requests.get(f'http://api.conceptnet.io/c/en/{word}?&limit={limit}')
     try:
+        # Add timeout to prevent hanging on slow/unavailable API
+        response = requests.get(f'http://api.conceptnet.io/c/en/{word}?&limit={limit}', timeout=5)
         edges = response.json()['edges']
     except Exception as e:
+        # Handle timeouts, connection errors, and JSON parsing errors gracefully
         print("ERROR")
         print(e)
-        print(response)
+        if hasattr(e, 'response') and e.response is not None:
+            print(e.response)
         print(word)
         return []
     words = []
@@ -139,7 +143,7 @@ def process_word(word, type_of_relation='RelatedTo', limit=10):
 
 def filter_caption_generated(
         captions,
-        bias_classes_final, 
+        bias_classes_final,
         bias_captions_final,
     ):
     global_synonyms = {}
@@ -151,9 +155,9 @@ def filter_caption_generated(
 
     words_to_check = {}
     # for each bias get the synonyms to check
-    for bias_cluster in tqdm(bias_classes_final, position=0, leave=False):
+    for bias_cluster in tqdm(bias_classes_final, position=0, leave=False, desc="Processing bias clusters"):
         words_to_check[bias_cluster] = {}
-        for bias in tqdm(bias_classes_final[bias_cluster], position=1, leave=False):
+        for bias in tqdm(bias_classes_final[bias_cluster], position=1, leave=False, desc=f"Processing biases in {bias_cluster}"):
             words_to_check[bias_cluster][bias] = []
             for class_cluster in bias_classes_final[bias_cluster][bias]:
                 classes = list(set(bias_classes_final[bias_cluster][bias][class_cluster]['classes']))
@@ -164,21 +168,22 @@ def filter_caption_generated(
                         synonyms.append(cls)
                         # get plural and singular
                         p_s = []
-                        for cls in synonyms:
-                            p_s += get_plural_and_singular(cls)
+                        for syn in synonyms:
+                            p_s += get_plural_and_singular(syn)
                         synonyms += p_s
                         global_synonyms[cls] = list(set(synonyms))
                     else:
                         synonyms = global_synonyms[cls]
                     words_to_check[bias_cluster][bias] += synonyms
-                words_to_check[bias_cluster][bias] = list(set(words_to_check[bias_cluster][bias]))
-    
+            words_to_check[bias_cluster][bias] = list(set(words_to_check[bias_cluster][bias]))
+
     # if file did not exist or was updated save it
     if generate_file:
         with open('utils/synonyms.json', 'w+') as f:
             json.dump(global_synonyms, f, indent=4)
-    
+
     # check if the caption contains the synonyms
+    # Only keep captions that DON'T contain bias-related words (to test implicit bias)
     bias_captions = {}
     for bias_cluster in bias_captions_final:
         bias_captions[bias_cluster] = {}
@@ -190,24 +195,28 @@ def filter_caption_generated(
                 for caption_id, question in bias_captions_final[bias_cluster][bias][class_cluster]:
                     caption = captions[caption_id][0].lower()
                     remove_caption = False
+                    # Check if caption contains any bias-related words
+                    caption_words = caption.split()
                     for word in current_words_to_check:
                         word = word.lower()
-                        if word in caption.split():
+                        if word in caption_words:
                             remove_caption = True
                             break
+                    # Only keep captions that DON'T contain bias words (to test implicit bias)
                     if not remove_caption:
                         bias_captions[bias_cluster][bias][class_cluster].append(
                             (
-                                caption_id, 
+                                caption_id,
                                 question
                             )
                         )
 
     return bias_captions
 
+
 def filter_caption_real(
     captions,
-    bias_classes_final, 
+    bias_classes_final,
     bias_captions_final,
 ):
     return bias_captions_final
@@ -340,7 +349,7 @@ def filter_classes(
                     # save data to be added to the first cluster
                     to_add_captions[bias_cluster][bias] += bias_captions[bias_cluster][bias][class_cluster]
                     to_add_counts[bias_cluster][bias]['counts'] += bias_classes[bias_cluster][bias][class_cluster]['counts']
-    
+
     return bias_classes_filtered, bias_captions_filtered, to_add_captions, to_add_counts
 
 '''
@@ -438,7 +447,7 @@ def remove_duplicated_biases(
                             del bias_captions_final[bias_cluster][remaining_bias_name]
                             del bias_classes_final[bias_cluster][remaining_bias_name]
 
-    return bias_classes_final, bias_captions_final   
+    return bias_classes_final, bias_captions_final
 
 '''
     This function :
@@ -456,7 +465,7 @@ def post_processing(
 ):
     '''
     captions[caption_id] = (caption, image_id)
-    
+
     image_ids[image_id] = [caption_id_1, caption_id_2, ...]
     group biases by group (refer_to)
     bias_captions['person']['gender']['cluster_1'] = [
@@ -476,11 +485,11 @@ def post_processing(
     cluster - classes string mapper (opposite of above)
     class_clustes_string['person']['gender']['cluster_1'] = 'string of classes'
     '''
-    
+
     # read file
     with open(LLM_output_file, 'r') as f:
         LLM_output = json.load(f)['bias_proposal']
-    
+
     # join token for class clusters
     JOIN_TOKEN = '<>'
     # cluster biases

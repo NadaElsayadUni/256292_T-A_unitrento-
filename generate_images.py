@@ -15,9 +15,9 @@ import torch.multiprocessing as mp
 
 # split the dataset into chunks for each rank
 class Distributed_dataset(Dataset):
-    def __init__(self, 
-            rank, 
-            world_size, 
+    def __init__(self,
+            rank,
+            world_size,
             opt,
             ds
         ):
@@ -26,7 +26,13 @@ class Distributed_dataset(Dataset):
         # get data
         data = ds.get_data()
         self.data_to_generate = []
+        max_captions = opt['dataset_setting'].get('max_captions', None)  # Limit number of captions for testing
+
         for prompt, caption_id in data:
+            # Limit the number of captions if max_captions is set
+            if max_captions is not None and len(self.data_to_generate) >= max_captions:
+                break
+
             # if the folder does not exist, add it to the list of data to generate
             if not os.path.isdir(os.path.join(opt['save_path'], str(caption_id))):
                 self.data_to_generate.append((prompt, caption_id))
@@ -38,6 +44,7 @@ class Distributed_dataset(Dataset):
                     # NOTE: this will overwrite the existing images
                     self.data_to_generate.append((prompt, caption_id))
 
+        print(f'Total captions to generate: {len(self.data_to_generate)}')
         # split data
         length = len(self.data_to_generate)
         samples_per_rank = length // world_size
@@ -49,14 +56,14 @@ class Distributed_dataset(Dataset):
     def __getitem__(self, idx):
         caption, caption_id = self.data_to_generate[idx]
         return caption, caption_id
-    
+
     def __len__(self):
         return len(self.data_to_generate)
 
 class DDP_image_gen(DDP):
     def __init__(
-        self, 
-        rank, 
+        self,
+        rank,
         world_size,
         opt,
         ds
@@ -71,7 +78,7 @@ class DDP_image_gen(DDP):
         self.opt = opt
         self.ds = ds
         super(DDP_image_gen, self).__init__(rank, world_size)
-    
+
     def split_batches(self, l, n_images):
         for i in range(0, len(l), n_images):
             yield l[i: i+n_images]
@@ -86,13 +93,14 @@ class DDP_image_gen(DDP):
             opt = self.opt,
             ds = self.ds
         )
-        
+
         print(f'Rank {self.rank} has {len(ds)} samples to generate')
         loader = DataLoader(ds, batch_size=1, shuffle=False, num_workers=1, pin_memory=True)
 
         # generate and save images
         for prompts, caption_ids in tqdm(loader, position=self.rank, desc=f'Rank {self.rank}'):
-            torch.cuda.empty_cache()
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
             prompts = [p+' '+self.pos_prompt for p in prompts]
             gen_images = generative_model.generate_images(prompt=prompts)
             batch_images = self.split_batches(gen_images, self.n_images)
@@ -109,11 +117,11 @@ class DDP_image_gen(DDP):
                         print(f'ERROR: image {image_idx} of caption {caption_id} not saved')
 
 def run(
-    rank, 
+    rank,
     world_size,
     opt,
     ds
-):  
+):
     # Set seed
     torch.manual_seed(opt['seed'])
     DDP_image_gen(
@@ -125,7 +133,16 @@ def run(
 
 if __name__ == "__main__":
     world_size = torch.cuda.device_count()
-    print(f'Using {world_size} GPUs')
+    if world_size == 0:
+        # Check for MPS (Apple Silicon) or use CPU
+        if hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
+            world_size = 1  # MPS doesn't support multi-process
+            print('Using MPS (Apple Silicon) - 1 process')
+        else:
+            world_size = 1  # Use 1 process for CPU execution
+            print('Using CPU (1 process)')
+    else:
+        print(f'Using {world_size} GPUs')
     # Parse arguments
     opt = arg_parse.argparse_generate_images()
     mp.set_start_method('spawn')
@@ -143,7 +160,7 @@ if __name__ == "__main__":
     )
     # Start DDP
     mp.spawn(
-        run, 
-        args=(world_size, opt, ds, ), 
+        run,
+        args=(world_size, opt, ds, ),
         nprocs=world_size
     )

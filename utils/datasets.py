@@ -2,13 +2,15 @@ from torch.utils.data import Dataset
 import os
 import json
 import csv
-from pycocotools.coco import COCO
+# Lazy import - only load when Coco class is used
+# from pycocotools.coco import COCO
 import utils.utils as utils
 from collections import defaultdict
 from copy import deepcopy
 from PIL import Image
 import torchvision.transforms as T
-import fiftyone
+# Lazy import - only load when needed (fiftyone is not used in Proposed_biases)
+# import fiftyone
 # from openimages.download import download_images as open_images_download
 
 #####################################################################################
@@ -38,7 +40,7 @@ class Coco(Dataset):
             path_images = os.path.join(path_images, 'val2017')
         elif mode == '_test':
             path_images = os.path.join(path_images, 'test2017')
-        
+
         self.path_annotations = path_annotations
         self.path_instances = path_instances
         self.path_images = path_images
@@ -69,6 +71,8 @@ class Coco(Dataset):
         return captions, image_ids, caption_ids
 
     def filter_image_ids(self, categories):
+        # Lazy import to avoid numpy compatibility issues when not using Coco class
+        from pycocotools.coco import COCO
         # get category ids
         coco = COCO(self.path_instances)
         category_ids = coco.getCatIds(catNms=categories)
@@ -90,7 +94,7 @@ class Coco(Dataset):
         # retain the images with one annotation only (single person)
         filtered_image_ids = [image_id for image_id in image_ids_counts if image_ids_counts[image_id] == 1]
         return filtered_image_ids
-    
+
     def __len__(self):
         return len(self.captions)
 
@@ -108,13 +112,13 @@ class Flickr_30k(Dataset):
         self.path_images = os.path.join(path, 'Images')
         self.captions, self.img_ids = self._get_annotations()
         self.images = os.listdir(self.path_images)
-    
+
     def get_images(self):
         return self.images
-    
+
     def _get_annotations(self):
         with open (self.path_annotations, "r") as myfile:
-            data = myfile.read().splitlines()[1:] 
+            data = myfile.read().splitlines()[1:]
         captions = []
         img_ids = []
         real_image_counts = defaultdict(int)
@@ -137,7 +141,7 @@ class Flickr_30k(Dataset):
 
     def __len__(self):
         return len(self.captions)
-    
+
     def get_captions(self):
         return self.captions, self.img_ids
 
@@ -151,7 +155,7 @@ class Image_dataset(Dataset):
     def __init__(self, data, dataset_path):
         self.data = data
         self.dataset_path = dataset_path
-    
+
     def __len__(self):
         return len(self.data)
 
@@ -182,7 +186,7 @@ class Captioned_dataset(Dataset):
 
     def __getitem__(self, index):
         return self.data[index][0], self.data[index][1]
-    
+
 class WinoBias:
     def __init__(
         self,
@@ -191,7 +195,7 @@ class WinoBias:
         path = opt['dataset_setting']['path']
         with open(os.path.join(path, 'professions.txt'), 'r') as f:
             self.professions = f.readlines()
-        
+
         self.professions = [profession.strip() for profession in self.professions]
         self.captions = []
         j = 0
@@ -224,12 +228,12 @@ class WinoBias:
                 )
             )
             j += 1
-    
+
     def __len__(self):
         return len(self.captions)
 
     def __getitem__(self, index):
-        return self.captions[index][0], self.captions[index][1], self.captions[index][1]  
+        return self.captions[index][0], self.captions[index][1], self.captions[index][1]
 
 #####################################################################################
 #######                                                                       #######
@@ -263,8 +267,8 @@ class Proposed_biases(Dataset):
             all_images=all_images
         )
         print("Done!")
-        # prompts to use for image generation 
-        # we take one <max_prompts> 
+        # prompts to use for image generation
+        # we take one <max_prompts>
         self.prompts = set()
         # for each bias group
         for bias_group_name in bias_captions_final:
@@ -357,7 +361,7 @@ class VQA_dataset(Dataset):
         #            question,
         #            [classes]
         #         ),
-        #        ...    
+        #        ...
         #     ]
         # }
         biases = defaultdict(list)
@@ -385,7 +389,7 @@ class VQA_dataset(Dataset):
                                 bias_classes_final[bias_cluster][bias_name][class_cluster]['classes']
                             )
                         )
-        
+
         self.biases = biases
 
         if self.mode == 'generated':
@@ -420,10 +424,10 @@ class VQA_dataset(Dataset):
                     # save bias information regarding the image
                     self.data.append(
                         (
-                            caption_id, 
+                            caption_id,
                             captions[caption_id][0],
                             captions[caption_id][1],
-                            os.path.join(images_paths, str(caption_id), image_name), 
+                            os.path.join(images_paths, str(caption_id), image_name),
                             biases[caption_id]
                         )
                     )
@@ -434,7 +438,7 @@ class VQA_dataset(Dataset):
             for caption_id in biases:
                 image_id = captions[caption_id][1]
                 image_ids[image_id] += biases[caption_id]
-                
+
             # define data
             # data = [
             #     (
@@ -457,21 +461,21 @@ class VQA_dataset(Dataset):
             for image_id in image_ids:
                 # get image path
                 image_path = os.path.join(
-                    images_paths, 
+                    images_paths,
                     dataset_setting['get_image_name'](image_id)
                 )
                 # save bias information regarding the image
                 self.data.append(
                     (
-                        image_id, 
-                        image_path, 
+                        image_id,
+                        image_path,
                         image_ids[image_id]
                     )
                 )
 
         # classes
         self.bias_classes_final = bias_classes_final
-        
+
     def __len__(self):
         return len(self.data)
 
@@ -483,7 +487,7 @@ class VQA_dataset(Dataset):
 
     def get_data(self):
         return self.data
-    
+
     def get_proposed_biases_per_caption(self):
         return self.biases
 
@@ -537,9 +541,9 @@ class VQA_specific_biases(Dataset):
                     class_clusters = list(bias_captions_final[bias_cluster][bias_name].keys())
                     # sort by number of captions
                     class_clusters = sorted(class_clusters, key=lambda x: len(bias_captions_final[bias_cluster][bias_name][x]), reverse=True)
-                    # get first cluster 
+                    # get first cluster
                     class_cluster = class_clusters[0]
-                    
+
                     cpts = utils.get_first_caption(
                         captions_id = bias_captions_final[bias_cluster][bias_name][class_cluster],
                         captions = captions,
@@ -558,7 +562,7 @@ class VQA_specific_biases(Dataset):
                             )
                     specific_bias[bias_name]['images'] = images
         self.specific_bias = specific_bias
-    
+
     def __len__(self):
         return len(self.specific_bias)
 
@@ -620,7 +624,7 @@ class VQA_evaluation(Dataset):
             elif mode == 'original':
                 image_id = captions[caption_id][1]
                 image = os.path.join(
-                    images_path, 
+                    images_path,
                     dataset_setting['get_image_name'](image_id)
                 )
                 self.data.append(
@@ -629,7 +633,7 @@ class VQA_evaluation(Dataset):
                         question
                     )
                 )
-            
+
     def __len__(self):
         return len(self.data)
 
@@ -697,7 +701,7 @@ class FairFace_Reference(Dataset):
             elif mode == 'original':
                 image_id = captions[caption_id][1]
                 image = os.path.join(
-                    images_paths, 
+                    images_paths,
                     dataset_setting['get_image_name'](image_id)
                 )
                 self.data.append(
@@ -706,7 +710,7 @@ class FairFace_Reference(Dataset):
                         question
                     )
                 )
-        
+
         self.transform = T.Compose([
             T.Resize((500, 300)),
             T.ToTensor()

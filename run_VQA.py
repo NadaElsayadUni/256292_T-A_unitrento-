@@ -13,8 +13,8 @@ import os
 
 class DDP_VQA(DDP):
     def __init__(
-        self, 
-        rank, 
+        self,
+        rank,
         world_size,
         bias_counts,
         vqa_answers,
@@ -32,25 +32,25 @@ class DDP_VQA(DDP):
 
     def main(self):
         # Initialize VQA model
-        vqa_model = VQA(self.device, self.opt)   
-  
-        # Initialize dataset     
+        vqa_model = VQA(self.device, self.opt)
+
+        # Initialize dataset
         dataset = VQA_dataset(
             dataset_setting = self.opt['dataset_setting'],
             mode = self.opt['mode'],
             max_prompts = self.max_prompts,
             filter_threshold = self.opt['filter_threshold'],
-            hard_threshold = self.opt['hard_threshold'], 
+            hard_threshold = self.opt['hard_threshold'],
             merge_threshold = self.opt['merge_threshold'],
             valid_bias_fn = self.opt['valid_bias_fn'],
             filter_caption_fn = self.opt['dataset_setting']['filter_caption_fn'],
         )
         loader = DataLoader(
-            dataset, 
-            batch_size=None, 
-            shuffle=False, 
-            num_workers=self.opt['workers'], 
-            pin_memory=True, 
+            dataset,
+            batch_size=None,
+            shuffle=False,
+            num_workers=self.opt['workers'],
+            pin_memory=True,
             sampler=DistributedSampler(dataset, shuffle=False)
         )
 
@@ -134,13 +134,21 @@ def deserialize_dict(bias_counts):
             for class_cluster in bias_counts[bias_cluster][bias_name]:
                 bias_counts[bias_cluster][bias_name][class_cluster] = dict(bias_counts[bias_cluster][bias_name][class_cluster].copy())
     return bias_counts
-    
+
 def main(opt):
-    opt['logger'].info(f"Initialize MULTI GPUs on {torch.cuda.device_count()} devices")
-    world_size = torch.cuda.device_count()
+    # Detect world_size for CUDA, MPS, or CPU
+    if torch.cuda.is_available():
+        world_size = torch.cuda.device_count()
+        opt['logger'].info(f"Initialize MULTI GPUs on {world_size} devices")
+    elif hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
+        world_size = 1  # MPS doesn't support multi-GPU
+        opt['logger'].info(f"Using MPS (Apple Silicon) - {world_size} process")
+    else:
+        world_size = 1
+        opt['logger'].info(f"Using CPU - {world_size} process")
     manager = mp.Manager()
 
-    # Initialize dataset     
+    # Initialize dataset
     dataset = VQA_dataset(
         dataset_setting = opt['dataset_setting'],
         mode = opt['mode'],
@@ -154,19 +162,23 @@ def main(opt):
 
     # Initialize bias counts dictionary shared across processes (GPUs)
     bias_counts = init_bias_counts(
-        manager, 
-        dataset.get_bias_classes(), 
+        manager,
+        dataset.get_bias_classes(),
         UNKNOWN_CLASS = opt['UNK_CLASS']
     )
 
     vqa_answers = init_answers(manager, dataset.get_data(), opt)
 
-    mp.spawn(run, args=(
-                        world_size, 
-                        bias_counts,
-                        vqa_answers,
-                        opt
-                    ), nprocs=world_size)
+    # Skip multiprocessing if world_size is 1 (CPU/MPS single process)
+    if world_size == 1:
+        run(0, world_size, bias_counts, vqa_answers, opt)
+    else:
+        mp.spawn(run, args=(
+                            world_size,
+                            bias_counts,
+                            vqa_answers,
+                            opt
+                        ), nprocs=world_size)
 
     bias_counts = deserialize_dict(bias_counts)
 
@@ -205,4 +217,3 @@ def main(opt):
 if __name__ == '__main__':
     opt = arg_parse.argparse_VQA()
     main(opt)
-    

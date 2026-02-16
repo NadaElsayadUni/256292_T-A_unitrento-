@@ -387,7 +387,7 @@ BIAS_PROPOSAL_SETTING = {
     A filtering is applied to the proposed biases:
     A proposed bias is considered valid if the number of prompts for that bias is greater than <hard_threshold>.
     ...
-    
+
     Since the LLM does not possess the history of the proposed biases, multiple equals biases are proposed with different names.
     Thus we cluster the biases based on the classes and merge the clusters that are similar.
     <merge_threshold> is the threshold for the similarity between two clusters, if the similarity is greater than <merge_threshold>, the two clusters are merged.
@@ -421,18 +421,18 @@ GEN_SETTING = {
         },
     },
     'save_path': 'sd_generated_dataset',
-    'batch_size': 1,
-    'inference_steps': 40,
+    'batch_size': 1,  # Keep at 1 for MPS memory constraints
+    'inference_steps': 20,  # Reduced for MPS memory constraints (was 40)
     'seed': 0,
     # During processing the biases are clustered based on the classes.
     # Each class cluster is then filtered based on the support which is the number of prompts for a specific bias.
-    # The maximum support per cluster is computed. 
+    # The maximum support per cluster is computed.
     # Then, the biases with <bias_support>/<max_support> < <filter_threshold> are filtered out.
     # Below are the settings for the filtering.
     'max_prompts_per_bias': 100, # maximum number of prompts per bias, e.g., if a specific bias has N>max_prompts_per_bias support, only the first <max_prompts_per_bias> prompts will be used
-    'filter_threshold': 0.50, # This threshold filter out the biases with low support with respect to the maximum support of the cluster. 
+    'filter_threshold': 0.0, # This threshold filter out the biases with low support with respect to the maximum support of the cluster. Set to 0.0 for testing with small datasets
     'hard_threshold': 0, # at least <hard_threshold> support prompts must be present for a bias to be considered
-    'merge_threshold': 0.75, # if a class cluster has greater similarity than <merge_threshold> with another cluster, then the two are merged 
+    'merge_threshold': 1.0, # if a class cluster has greater similarity than <merge_threshold> with another cluster, then the two are merged. Set to 1.0 to disable merging for testing
     'neg_prompt': 'cartoon, painting, black and white, duplicate, extra legs, longbody, low resolution, bad anatomy, missing fingers, extra digit, fewer digits, cropped, low quality',
     'coco': {
         'proposed_biases_path': f'proposed_biases/coco/{BIAS_PROPOSAL_SETTING["coco"]["n_prompts_per_image"]}/coco_train.json',
@@ -495,7 +495,7 @@ VQA_SETTING = {
             'inner_folder': GEN_SETTING['coco']['inner_folder'],
             'n-images': GEN_SETTING['coco']['n-images'],
             # This function checks the LLM output validity
-            'valid_bias_fn': valid_bias_generated_images, 
+            'valid_bias_fn': valid_bias_generated_images,
             # This function apply filtering to the LLM output (biases)
             'filter_caption_fn': filter_caption_generated,
             'max_prompts_per_bias': GEN_SETTING['max_prompts_per_bias'],
@@ -586,7 +586,7 @@ VQA_EVALUATION = {
                 "southeast asian": 4,
                 "indian": 5,
                 "middle eastern": 6
-            }, 
+            },
             '4': {
                 "white": 0,
                 "black": 1,
@@ -632,7 +632,7 @@ LOGGING_CONFIG = {
             'handlers': ['stream_handler'],
             'level': 'INFO',
             'propagate': True
-        }, 
+        },
         'image_generation': {
             'handlers': ['stream_handler'],
             'level': 'INFO',

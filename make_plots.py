@@ -41,7 +41,7 @@ def make_plot(title, xlabel, ylabel, scores, mode, path):
 
     plt.gca().spines['top'].set_visible(False)
     plt.gca().spines['right'].set_visible(False)
-    
+
     plt.tight_layout()
     # Adjust x-axis limits to remove space between the first bar and the y-axis
     plt.xlim(-group_width*2, len(scores))
@@ -52,7 +52,7 @@ if __name__ == '__main__':
     parser.add_argument('--generator', choices=list(GEN_SETTING['generators'].keys()), help="dataset to use")
     parser.add_argument('--dataset', choices=['coco', 'flickr_30k', 'winobias', 'ffhq'], help="dataset to use")
     parser.add_argument('--mode', choices=['original', 'generated'], help="dataset to use")
-    parser.add_argument('--vqa_model', choices=['llava-1.5-13b'], default='llava-1.5-13b', help="dataset to use")
+    parser.add_argument('--vqa_model', default='blip-large', help="VQA model used (e.g., blip-large, llava-1.5-13b)")
     opt = vars(parser.parse_args())
 
     dataset = opt['dataset']
@@ -63,7 +63,7 @@ if __name__ == '__main__':
     UNK_CLASS = 'unknown'
     OTHER_CLASS = 'other'
     # As stated in the paper, we assume gender to be binary and remove the non-binary class as it is never predicted by the VQA model
-    NON_BINRAY_CLASS = 'non-binary' 
+    NON_BINRAY_CLASS = 'non-binary'
 
     if mode == 'original':
         path = f'results/VQA/{dataset}/{mode}/{vqa_model}'
@@ -171,14 +171,14 @@ if __name__ == '__main__':
             # rename child to child race if bias_name == race for better visualization
             if bias_name == 'race' and bias_cluster == 'child':
                 name = 'child race'
-                
+
             for class_cluster in entropy_final[bias_cluster][bias_name]:
                 h = entropy_final[bias_cluster][bias_name][class_cluster]
                 entropies_context_aware_score = np.mean(entropies_context_aware[bias_cluster][bias_name])
                 if not math.isnan(h) and not math.isinf(h):
                     scores_entropy_context_aware.append((bias_cluster, name, class_cluster, round(1-entropies_context_aware_score, 4)))
                     scores_entropy_context_free.append((bias_cluster, name, class_cluster, round(1-h, 4)))
-                
+
     # sort by entropy
     scores_entropy_context_aware = sorted(scores_entropy_context_aware, key=lambda x: x[3], reverse=False)
     scores_entropy_context_free = sorted(scores_entropy_context_free, key=lambda x: x[3], reverse=False)

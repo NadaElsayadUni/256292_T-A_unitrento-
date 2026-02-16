@@ -26,7 +26,7 @@ class StyleGAN3():
         self.translate = legacy.parse_vec2(kwargs['gen_info']['translate'])
         self.noise_mode = kwargs['gen_info']['noise_mode']
         self.truncation_psi = kwargs['gen_info']['truncation_psi']
-    
+
     @torch.no_grad()
     def generate_images(self, seed):
         z = torch.from_numpy(np.random.RandomState(seed).randn(1, self.G.z_dim)).to(self.device)
@@ -53,56 +53,100 @@ class Stable_Diffusion_XL():
         n_images,
         safe_checker = False
     ):
+        # Use float32 for MPS (Apple Silicon), float16 for CUDA
+        # Load fp16 model (smaller) but convert to float32 for MPS
+        if device == "mps" or (isinstance(device, str) and device.startswith("mps")):
+            dtype = torch.float32
+        else:
+            dtype = torch.float16
         # base diffusion xl model
         self.base = DiffusionPipeline.from_pretrained(
-            gen_info['version'], 
-            torch_dtype=torch.float16,
+            gen_info['version'],
+            torch_dtype=dtype,
             use_safetensors=True,
-            variant="fp16"
-        ).to(device)
-        # self.base.enable_model_cpu_offload()
+            variant="fp16"  # Always load fp16 variant (smaller), will be converted if needed
+        )
+        # Enable sequential CPU offloading for MPS to reduce memory usage (more aggressive)
+        if device == "mps" or (isinstance(device, str) and device.startswith("mps")):
+            try:
+                self.base.enable_sequential_cpu_offload()
+            except AttributeError:
+                # Fallback to regular CPU offload if sequential not available
+                self.base.enable_model_cpu_offload()
+        else:
+            self.base = self.base.to(device)
         self.base.set_progress_bar_config(disable=True)
         if not safe_checker:
             self.base.safety_checker = dummy_checker
-        
+
         # refiner
         self.refiner = DiffusionPipeline.from_pretrained(
             gen_info['refiner'],
             text_encoder_2=self.base.text_encoder_2,
             vae=self.base.vae,
-            torch_dtype=torch.float16,
+            torch_dtype=dtype,
             use_safetensors=True,
-            variant="fp16",
-        ).to(device)
-        # self.refiner.enable_model_cpu_offload()
+            variant="fp16",  # Always load fp16 variant (smaller), will be converted if needed
+        )
+        # Enable sequential CPU offloading for MPS to reduce memory usage (more aggressive)
+        if device == "mps" or (isinstance(device, str) and device.startswith("mps")):
+            try:
+                self.refiner.enable_sequential_cpu_offload()
+            except AttributeError:
+                # Fallback to regular CPU offload if sequential not available
+                self.refiner.enable_model_cpu_offload()
+        else:
+            self.refiner = self.refiner.to(device)
         self.refiner.set_progress_bar_config(disable=True)
         if not safe_checker:
             self.refiner.safety_checker = dummy_checker
-        
+
         self.high_noise_frac = 0.8
         self.inference_steps = GEN_SETTING['inference_steps']
         self.n_images = n_images
         self.neg_prompt = [GEN_SETTING['neg_prompt']]*GEN_SETTING['batch_size']
-            
+
     @torch.no_grad()
     def generate_images(self, prompt):
-        torch.cuda.empty_cache()
+        # Clear cache for CUDA
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+        # Clear MPS cache if using MPS
+        elif hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
+            torch.mps.empty_cache()
+
+        # Generate base images
         images = self.base(
-            prompt, 
+            prompt,
             negative_prompt=self.neg_prompt,
             num_inference_steps = self.inference_steps,
             num_images_per_prompt=self.n_images,
             denoising_end=self.high_noise_frac,
             output_type="latent",
         ).images
+
+        # Clear cache between base and refiner for MPS
+        if hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
+            torch.mps.empty_cache()
+        elif torch.cuda.is_available():
+            torch.cuda.empty_cache()
+
+        # Refine images
         images = self.refiner(
             prompt=prompt,
             negative_prompt=self.neg_prompt,
             num_inference_steps=self.inference_steps,
             num_images_per_prompt=self.n_images,
             denoising_start=self.high_noise_frac,
-            image=images, 
+            image=images,
         ).images
+
+        # Final cache clear
+        if hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
+            torch.mps.empty_cache()
+        elif torch.cuda.is_available():
+            torch.cuda.empty_cache()
+
         return images
 
 # diffusion model class (for 1.5 and 2)
@@ -114,41 +158,72 @@ class Stable_Diffusion():
         n_images,
         safe_checker = False
     ):
+        # Use float32 for MPS (Apple Silicon), float16 for CUDA
+        if device == "mps" or (isinstance(device, str) and device.startswith("mps")):
+            dtype = torch.float32
+        else:
+            dtype = torch.float16
+
         if gen_info['version'] == 'stabilityai/stable-diffusion-2':
             # Use the Euler scheduler here instead
             scheduler = EulerDiscreteScheduler.from_pretrained(gen_info['version'], subfolder="scheduler")
             # diffusion model
             self.dm = StableDiffusionPipeline.from_pretrained(
-                gen_info['version'], 
+                gen_info['version'],
                 scheduler=scheduler,
-                torch_dtype=torch.float16,
+                torch_dtype=dtype,
                 use_safetensors=True
-            ).to(device)
+            )
         else:
             # diffusion model
             self.dm = StableDiffusionPipeline.from_pretrained(
-                gen_info['version'], 
-                torch_dtype=torch.float16,
+                gen_info['version'],
+                torch_dtype=dtype,
                 use_safetensors=True
-            ).to(device)
-        # self.dm.enable_model_cpu_offload()
+            )
+
+        # Enable CPU offloading for MPS to reduce memory usage
+        if device == "mps" or (isinstance(device, str) and device.startswith("mps")):
+            self.dm.enable_model_cpu_offload()
+            # Enable attention slicing for more aggressive memory management
+            try:
+                self.dm.enable_attention_slicing()
+            except:
+                pass
+        else:
+            self.dm = self.dm.to(device)
+
         self.dm.set_progress_bar_config(disable=True)
         if not safe_checker:
             self.dm.safety_checker = dummy_checker
-        
+
         self.inference_steps = GEN_SETTING['inference_steps']
         self.n_images = n_images
         self.neg_prompt = [GEN_SETTING['neg_prompt']]*GEN_SETTING['batch_size']
-            
+        self.device = device
+
     @torch.no_grad()
     def generate_images(self, prompt):
-        torch.cuda.empty_cache()
+        # Clear cache for CUDA
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+        # Clear MPS cache if using MPS
+        elif hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
+            torch.mps.empty_cache()
+
         images = self.dm(
-            prompt, 
+            prompt,
             negative_prompt=self.neg_prompt,
             num_inference_steps = self.inference_steps,
             num_images_per_prompt=self.n_images,
         ).images
+
+        # Clear cache after generation
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+        elif hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
+            torch.mps.empty_cache()
+
         return images
 
 
