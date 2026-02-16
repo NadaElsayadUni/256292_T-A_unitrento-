@@ -16,13 +16,13 @@
 ![alt text](OpenBias.png)
 
 ## Installation
-We recomand to use a virtual environment to install the required environment. 
+We recomand to use a virtual environment to install the required environment.
 ```bash
 # Create a virtual environment and activate it
 python -m venv openbias
 source openbias/bin/activate
 ```
-Before installing the required packages, please install [PyTorch](https://pytorch.org/get-started/locally/) separately according to your system and CUDA version.  
+Before installing the required packages, please install [PyTorch](https://pytorch.org/get-started/locally/) separately according to your system and CUDA version.
 After installing PyTorch, you may install the required packages with the following commands:
 ```
 # Upgrade pip and install requirements
@@ -38,11 +38,11 @@ OpenBias is composed of three main steps:
 2. **Image Generation**: The target generative model produces images using the same set of captions.
 3. **Bias Detection**: A Vision Question Answering model recognizes the presence of the previously proposed biases.
 
-Please note that captions are required for running this pipeline.  
-We provide support for `COCO`, `Flickr30k` and `winobias` datasets.  
+Please note that captions are required for running this pipeline.
+We provide support for `COCO`, `Flickr30k` and `winobias` datasets.
 All the scripts of this pipeline `support multi GPUs`.
 
-Please before running the pipeline make sure to **correctly update** the config file (`./utils/config.py`) with the correct paths to the datasets and model weights (e.g., LLMs and VQAs).  
+Please before running the pipeline make sure to **correctly update** the config file (`./utils/config.py`) with the correct paths to the datasets and model weights (e.g., LLMs and VQAs).
 Please note that the `steps.sh` script includes a full pipeline script example.
 
 ### Bias Proposal
@@ -50,31 +50,31 @@ Before running this step, make sure to update `BIAS_PROPOSAL_SETTING` of the `./
 
 The bias proposal step can be run using the following command:
 ```bash
-CUDA_VISIBLE_DEVICES=0 python bias_proposals.py 
-    --workers 6 
-    --dataset 'coco' 
+CUDA_VISIBLE_DEVICES=0 python bias_proposals.py
+    --workers 6
+    --dataset 'coco'
 ```
 This script outputs a JSON file containing the proposed biases under the `./proposed_biases/` folder.
-The supported datasets are `coco` and `flickr30k`.  
+The supported datasets are `coco` and `flickr30k`.
 The number of workers and GPUs can be adjusted according to the available resources.
 
 We make available the proposed biases for the COCO and Flickr30k datasets: [COCO](https://drive.google.com/file/d/1nGECdt0fcwiJA-5qJgvgnZbGBp4zHnNq/view?usp=sharing), [Flickr30k](https://drive.google.com/file/d/1Dp6IXwXC7tz27tiGCRHAiXEUa7h9Ebjk/view?usp=sharing). For each dataset create the folder `./proposed_biases/<dataset>/3/` and move the downloaded files there accordingly.
 
 ### Image Generation
-This step generates images using the chosen target generative model and by leveraging the previously proposed captions.  
+This step generates images using the chosen target generative model and by leveraging the previously proposed captions.
 Image generation can be run using the following command:
 ```bash
 CUDA_VISIBLE_DEVICES=0 python generate_images.py --dataset coco --generator sd-xl
 ```
-This script saves the generated images under the `./sd_generated_dataset/` folder. 
+This script saves the generated images under the `./sd_generated_dataset/` folder.
 
 ### Bias Detection
-This step can be run either on generated images or real images.  
+This step can be run either on generated images or real images.
 To run the bias detection on generated images, use the following command:
 ```bash
 CUDA_VISIBLE_DEVICES=0 python run_VQA.py --vqa_model llava-1.5-13b --workers 4 --dataset 'coco' --mode 'generated' --generator sd-xl
 ```
-You may chose the desired generated images by changing the `--generator` parameter.  
+You may chose the desired generated images by changing the `--generator` parameter.
 This script can be run on real images by changing the `--mode` parameter to `original`, as follows:
 ```bash
 CUDA_VISIBLE_DEVICES=0 python run_VQA.py --vqa_model llava-1.5-13b --workers 4 --dataset 'coco' --mode 'original'
@@ -86,28 +86,50 @@ The restuls can be plotted using the following command:
 ```bash
 python make_plots.py --generator sd-xl --dataset coco --mode generated
 ```
-Please chose the desired generator and dataset accordingly. Similarly to the bias detection step, you may chose the mode to be `original` to plot the results of the bias detection on real images.  
+Please chose the desired generator and dataset accordingly. Similarly to the bias detection step, you may chose the mode to be `original` to plot the results of the bias detection on real images.
+
+### Additional Analysis Scripts
+Extended documentation for these scripts and the analysis workflow: [Google Doc](https://docs.google.com/document/d/1UdbIASxvy1N-EixYjgnocFOUngbQlNqsZf7CAsUrfqE/edit?tab=t.t6o13j5qg2qa).
+
+The following scripts extend the pipeline with quantitative analysis and comparison plots. They expect result files that contain VQA outputs and `//data count` blocks (e.g. from running VQA and saving/aggregating results per prompt or sample size).
+
+- **Sample size vs severity** (`plot_sample_size_vs_severity.py`): Plots bias severity (y-axis) vs sample size (x-axis) to assess whether a finding is a random occurrence or a stable model belief. Input: a results file with multiple blocks (e.g. `person_working_laptop_results.txt`) where each block has a sample size and a data count.
+  ```bash
+  python plot_sample_size_vs_severity.py --input proposed_biases/coco/3/person_working_laptop_results.txt --output results/VQA/coco/generated/sd-xl/blip-large/sample_size_vs_severity.png
+  ```
+
+- **Prompt specificity** (`plot_prompt_specificity.py`): Plots bias severity (y-axis) vs prompt type (x-axis), e.g. "Working" vs "Coffee shop" for the same bias. Input: a results file with one block per prompt type (e.g. `person_working_vs_person_coffeeShop.txt`).
+  ```bash
+  python plot_prompt_specificity.py --input proposed_biases/coco/3/person_working_vs_person_coffeeShop.txt --output results/VQA/coco/generated/sd-xl/blip-large/prompt_specificity.png
+  ```
+
+- **Generator comparison** (`plot_generator_comparison.py`): Grouped bar chart of bias severity per bias (x-axis), comparing SD-1.5 vs SD-XL (same prompt). Input: two result files, one per generator (e.g. `lap_coffeeshop_SD1_5.txt` and `lap_coffeeshop_SDXL.txt`), each with a `//data count` block.
+  ```bash
+  python plot_generator_comparison.py --sd15 proposed_biases/coco/3/lap_coffeeshop_SD1_5.txt --sdxl proposed_biases/coco/3/lap_coffeeshop_SDXL.txt --output results/VQA/coco/generated/generator_comparison.png
+  ```
+
+Severity is computed as `1 - normalized entropy` (same as in `make_plots.py`): higher values indicate stronger bias.
 
 ### Unconditional Generation
-This pipeline can be used for unconditional generation as well.  
+This pipeline can be used for unconditional generation as well.
 To generate images without captions, use the following command:
 ```bash
 CUDA_VISIBLE_DEVICES=0 python StyleGan3_generation.py --n_images 100 --generator stylegan3-ffhq
 ```
-This script uses StyleGAN3 to generate `--n_images` images and saves them under the `./sd_generated_dataset/` folder.  
+This script uses StyleGAN3 to generate `--n_images` images and saves them under the `./sd_generated_dataset/` folder.
 Please make sure to download the StyleGAN3 `stylegan3-r-ffhq-1024x1024.pkl` weights before running this script. Place them under the `./utils/stylegan3/weights/` folder.
 
-After generating the images, it is required to run a captioning model to generate captions for the generated images. These captions are needed to propose biases and run the bias detection step.  
+After generating the images, it is required to run a captioning model to generate captions for the generated images. These captions are needed to propose biases and run the bias detection step.
 This step can be run using the following command:
 ```bash
-CUDA_VISIBLE_DEVICES=0 python captioning.py --generator stylegan3-ffhq 
+CUDA_VISIBLE_DEVICES=0 python captioning.py --generator stylegan3-ffhq
 ```
-The generated captions will be available under `./sd_generated_dataset/<generator>/` folder.  
+The generated captions will be available under `./sd_generated_dataset/<generator>/` folder.
 Afterwards, the bias proposal step can be run as follows:
 ```bash
 CUDA_VISIBLE_DEVICES=0 python bias_proposals.py --workers 6 --dataset 'stylegan3_ffhq'
 ```
-Before running the bias detection step, please run the script `./proposed_biases/stylegan3_ffhq/add_caption_ids.py` to add caption ids.  
+Before running the bias detection step, please run the script `./proposed_biases/stylegan3_ffhq/add_caption_ids.py` to add caption ids.
 The bias detection step can be run as follows:
 ```bash
 CUDA_VISIBLE_DEVICES=0 python run_VQA.py --vqa_model llava-1.5-13b --workers 4 --dataset 'ffhq' --mode 'generated' --generator stylegan3-ffhq
