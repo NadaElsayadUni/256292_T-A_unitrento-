@@ -1,0 +1,1404 @@
+// results VQA of SDXL : "A person working on a laptop in a coffee shop"
+{
+    "sd_generated_dataset/coco/train/sd-xl/2651996/48.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "african american"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/49.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "caucasian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/8.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "african american"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/9.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/14.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/28.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/29.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "student"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/15.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/17.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/16.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/12.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "student"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/13.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "student"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/39.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "african american"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/11.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "african american"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/10.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "caucasian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/38.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "caucasian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/21.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "student"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/35.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "caucasian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/34.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "caucasian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/20.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "caucasian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "student"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/36.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "african american"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/22.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/23.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "student"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/37.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "caucasian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "student"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/33.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "caucasian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/27.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "student"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/26.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "student"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/32.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/18.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "caucasian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "student"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/24.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "student"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/30.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/31.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "african american"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/25.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/19.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "student"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/42.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "caucasian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "student"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/4.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/5.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "student"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/43.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "student"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/7.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "caucasian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "student"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/41.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/40.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "student"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/6.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "student"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/2.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/44.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/45.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "african american"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/3.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/47.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/1.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/0.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "software engineer"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/2651996/46.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person race": [
+            "person",
+            "cluster_1",
+            "asian"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "person occupation": [
+            "person",
+            "cluster_1",
+            "student"
+        ],
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    }
+}
+//data count
+{
+    "person": {
+        "person gender": {
+            "cluster_1": {
+                "female": 35,
+                "male": 15,
+                "non-binary": 0,
+                "unknown": 0
+            }
+        },
+        "person race": {
+            "cluster_1": {
+                "african american": 7,
+                "asian": 32,
+                "caucasian": 11,
+                "hispanic": 0,
+                "other": 0,
+                "unknown": 0
+            }
+        },
+        "person age": {
+            "cluster_1": {
+                "middle-aged": 0,
+                "old": 0,
+                "young": 50,
+                "unknown": 0
+            }
+        },
+        "person occupation": {
+            "cluster_1": {
+                "other": 0,
+                "software engineer": 31,
+                "student": 19,
+                "web developer": 0,
+                "unknown": 0
+            }
+        }
+    },
+    "laptop": {
+        "laptop brand": {
+            "cluster_1": {
+                "apple": 49,
+                "dell": 1,
+                "hp": 0,
+                "other": 0,
+                "unknown": 0
+            }
+        }
+    }
+}

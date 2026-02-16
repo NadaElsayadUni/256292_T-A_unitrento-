@@ -1,0 +1,2662 @@
+// results of the person working on a laptop bias with sample = 10
+{
+    "sd_generated_dataset/coco/train/sd-xl/173202610/8.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202610/9.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202610/4.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202610/5.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202610/7.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202610/6.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202610/2.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202610/3.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202610/1.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202610/0.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    }
+}
+
+// data count
+{
+    "laptop": {
+        "laptop brand": {
+            "cluster_1": {
+                "apple": 6,
+                "dell": 4,
+                "hp": 0,
+                "other": 0,
+                "unknown": 0
+            }
+        }
+    }
+}
+//////////////////////////////////////////////////////////////////////
+// results of the person working on a laptop bias with sample = 20 //
+
+{
+    "sd_generated_dataset/coco/train/sd-xl/173202620/8.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202620/9.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202620/14.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202620/15.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202620/17.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202620/16.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202620/12.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202620/13.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202620/11.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "hp"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202620/10.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202620/18.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202620/19.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202620/4.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202620/5.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202620/7.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202620/6.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202620/2.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202620/3.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202620/1.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202620/0.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    }
+}
+// data count 
+{
+    "laptop": {
+        "laptop brand": {
+            "cluster_1": {
+                "apple": 15,
+                "dell": 4,
+                "hp": 1,
+                "other": 0,
+                "unknown": 0
+            }
+        }
+    }
+}
+
+//////////////////////////////////////////////////////////////////////
+// results of the person working on a laptop bias with sample = 30 //
+{
+    "sd_generated_dataset/coco/train/sd-xl/173202630/8.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/9.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/14.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/28.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/29.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/15.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/17.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/16.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/12.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/13.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/11.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "hp"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/10.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/21.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/20.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/22.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/23.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/27.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/26.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/18.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/24.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/25.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/19.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/4.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/5.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/7.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/6.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/2.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/3.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/1.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202630/0.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    }
+}
+
+// data count 
+{
+    "laptop": {
+        "laptop brand": {
+            "cluster_1": {
+                "apple": 25,
+                "dell": 4,
+                "hp": 1,
+                "other": 0,
+                "unknown": 0
+            }
+        }
+    }
+}
+
+//////////////////////////////////////////////////////////////////////
+// results of the person working on a laptop bias with sample = 50 //
+
+{
+    "sd_generated_dataset/coco/train/sd-xl/173202650/48.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/49.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/8.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/9.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/14.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/28.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/29.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/15.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/17.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/16.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/12.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/13.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/39.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/11.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "hp"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/10.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/38.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/21.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/35.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/34.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/20.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/36.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/22.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/23.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/37.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/33.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/27.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/26.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/32.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/18.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/24.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/30.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/31.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/25.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/19.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/42.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/4.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/5.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/43.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/7.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/41.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/40.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/6.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/2.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/44.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/45.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/3.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/47.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/1.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/0.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202650/46.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    }
+}
+
+//data count
+{
+    "laptop": {
+        "laptop brand": {
+            "cluster_1": {
+                "apple": 41,
+                "dell": 8,
+                "hp": 1,
+                "other": 0,
+                "unknown": 0
+            }
+        }
+    }
+}
+
+//////////////////////////////////////////////////////////////////////
+// results of the person working on a laptop bias with sample = 65 //
+
+{
+    "sd_generated_dataset/coco/train/sd-xl/173202680/63.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/62.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/48.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/60.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/61.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/49.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/59.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/65.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/64.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/58.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/8.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/9.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/14.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/28.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/29.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/15.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/17.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/16.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/12.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/13.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/39.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/11.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "hp"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/10.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/38.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/21.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/35.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/21.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/34.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/20.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/36.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/22.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/23.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/37.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/33.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/27.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/26.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/32.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/18.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/24.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/30.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/31.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/25.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/19.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/42.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/4.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/56.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/57.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/5.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/43.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/7.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/41.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/55.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/54.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/40.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/6.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/2.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/44.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/50.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/51.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/45.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/3.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/47.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/1.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/53.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/52.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/0.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/46.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    }
+}
+
+// data count
+{
+    "laptop": {
+        "laptop brand": {
+            "cluster_1": {
+                "apple": 57,
+                "dell": 9,
+                "hp": 1,
+                "other": 0,
+                "unknown": 0
+            }
+        }
+    }
+}
+
+//////////////////////////////////////////////////////////////////////
+// results of the person working on a laptop bias with sample = 81 //
+
+{
+    "sd_generated_dataset/coco/train/sd-xl/173202680/77.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/63.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/62.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/76.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/74.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/48.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/60.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/61.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/49.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/75.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/59.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/71.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/65.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/64.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/58.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/70.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/8.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/66.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/72.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/73.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/67.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/9.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/14.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/28.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/29.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/15.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/17.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/16.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/12.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/13.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/39.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/11.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "hp"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/10.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/38.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/21.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/35.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/21.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/34.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/20.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/36.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/22.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/23.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/37.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/33.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/27.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/26.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/32.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/18.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/24.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/30.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/31.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/25.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/19.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/42.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/4.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/56.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/57.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/5.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/43.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/7.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/41.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/69.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/55.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/54.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/68.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/40.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/6.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/78.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/2.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/44.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/50.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/51.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/45.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/3.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/79.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/47.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/1.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/53.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/52.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/0.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/173202680/46.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    }
+}
+
+//data count
+{
+    "laptop": {
+        "laptop brand": {
+            "cluster_1": {
+                "apple": 72,
+                "dell": 8,
+                "hp": 1,
+                "other": 0,
+                "unknown": 0
+            }
+        }
+    }
+}
+
+//////////////////////////////////////////////////////////////////////
+// results of the person working on a laptop bias with sample = 102 //
+
+{
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/77.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/88.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/63.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/62.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/89.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/76.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/74.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/48.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/60.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/61.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/49.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/75.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/59.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/71.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/65.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/64.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/58.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/70.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/8.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/66.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/72.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/99.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/98.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/73.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/67.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/9.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/14.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/28.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/100.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/29.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/15.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/17.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/16.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/12.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/13.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/39.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/11.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "hp"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/10.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/38.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/21.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/35.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/21.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/34.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/20.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/36.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/22.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/23.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/37.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/33.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/27.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/26.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/32.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/18.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/24.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/30.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/31.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/25.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/19.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/42.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/4.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/81.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/95.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "hp"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/56.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/57.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/94.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/80.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/5.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/43.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/7.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/41.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/69.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/96.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/82.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/55.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/54.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/83.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "hp"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/97.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/68.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/40.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/6.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/78.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/2.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/44.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/93.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/87.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/50.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/51.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/86.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/92.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/45.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/3.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/79.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/47.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/1.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/84.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/90.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/53.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/52.png": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/91.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/85.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "dell"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/0.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/1732026100/46.jpg": {
+        "laptop brand": [
+            "laptop",
+            "cluster_1",
+            "apple"
+        ]
+    }
+}
+
+//data count
+
+{
+    "laptop": {
+        "laptop brand": {
+            "cluster_1": {
+                "apple": 92,
+                "dell": 8,
+                "hp": 2,
+                "other": 0,
+                "unknown": 0
+            }
+        }
+    }
+}
