@@ -1,0 +1,1866 @@
+// results VQA of SD1.5 : "Motorcycle rider in the middle of the air while riding a dirt bike. ", N = 40
+{
+    "sd_generated_dataset/coco/train/sd-1.5/41772/8.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/9.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/14.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/28.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/29.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/15.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/17.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/16.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/12.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/13.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "female"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/39.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/11.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/10.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/38.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/21.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/35.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/34.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/20.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/36.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/22.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/23.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/37.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/33.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/27.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/26.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/32.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/18.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/24.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/30.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/31.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/25.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/19.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/4.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/5.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/7.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/6.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/2.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/3.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/1.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/0.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    }
+}
+// data count
+{
+    "person": {
+        "person gender": {
+            "cluster_1": {
+                "female": 1,
+                "male": 39,
+                "non-binary": 0,
+                "unknown": 0
+            }
+        },
+        "person age": {
+            "cluster_1": {
+                "middle-aged": 0,
+                "old": 0,
+                "young": 40,
+                "unknown": 0
+            }
+        },
+        "person activity": {
+            "cluster_1": {
+                "other": 0,
+                "parked": 0,
+                "riding": 0,
+                "unknown": 0
+            }
+        }
+    },
+    "motorcycle": {
+        "motorcycle type": {
+            "cluster_1": {
+                "dirt bike": 40,
+                "other": 0,
+                "street bike": 0,
+                "touring bike": 0,
+                "unknown": 0
+            }
+        }
+    },
+    "environment": {
+        "environment": {
+            "cluster_1": {
+                "indoor": 0,
+                "other": 0,
+                "outdoor": 40,
+                "unknown": 0
+            }
+        }
+    }
+}
+// results VQA of SDXL : "Motorcycle rider in the middle of the air while riding a dirt bike. ", N = 40
+{
+    "sd_generated_dataset/coco/train/sd-xl/41772/8.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/9.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/14.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/28.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/29.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/15.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/17.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/16.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/12.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/13.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/39.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/11.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/10.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/38.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/21.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/35.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/34.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/20.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/36.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/22.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/23.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/37.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/33.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/27.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/26.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/32.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/18.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/24.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/30.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/31.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/25.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/19.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/4.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/5.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/7.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/6.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/2.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/3.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/1.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-xl/41772/0.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    }
+}
+//data count
+{
+    "person": {
+        "person gender": {
+            "cluster_1": {
+                "female": 0,
+                "male": 40,
+                "non-binary": 0,
+                "unknown": 0
+            }
+        },
+        "person age": {
+            "cluster_1": {
+                "middle-aged": 0,
+                "old": 0,
+                "young": 40,
+                "unknown": 0
+            }
+        },
+        "person activity": {
+            "cluster_1": {
+                "other": 0,
+                "parked": 0,
+                "riding": 0,
+                "unknown": 0
+            }
+        }
+    },
+    "motorcycle": {
+        "motorcycle type": {
+            "cluster_1": {
+                "dirt bike": 40,
+                "other": 0,
+                "street bike": 0,
+                "touring bike": 0,
+                "unknown": 0
+            }
+        }
+    },
+    "environment": {
+        "environment": {
+            "cluster_1": {
+                "indoor": 0,
+                "other": 0,
+                "outdoor": 40,
+                "unknown": 0
+            }
+        }
+    }
+}

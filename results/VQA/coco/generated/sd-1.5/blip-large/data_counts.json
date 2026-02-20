@@ -2,19 +2,9 @@
     "person": {
         "person gender": {
             "cluster_1": {
-                "female": 17,
-                "male": 33,
+                "female": 1,
+                "male": 39,
                 "non-binary": 0,
-                "unknown": 0
-            }
-        },
-        "person race": {
-            "cluster_1": {
-                "african american": 2,
-                "asian": 3,
-                "caucasian": 45,
-                "hispanic": 0,
-                "other": 0,
                 "unknown": 0
             }
         },
@@ -22,27 +12,36 @@
             "cluster_1": {
                 "middle-aged": 0,
                 "old": 0,
-                "young": 50,
+                "young": 40,
                 "unknown": 0
             }
         },
-        "person occupation": {
+        "person activity": {
             "cluster_1": {
-                "other": 10,
-                "software engineer": 40,
-                "student": 0,
-                "web developer": 0,
+                "other": 0,
+                "parked": 0,
+                "riding": 0,
                 "unknown": 0
             }
         }
     },
-    "laptop": {
-        "laptop brand": {
+    "motorcycle": {
+        "motorcycle type": {
             "cluster_1": {
-                "apple": 42,
-                "dell": 7,
-                "hp": 1,
+                "dirt bike": 40,
                 "other": 0,
+                "street bike": 0,
+                "touring bike": 0,
+                "unknown": 0
+            }
+        }
+    },
+    "environment": {
+        "environment": {
+            "cluster_1": {
+                "indoor": 0,
+                "other": 0,
+                "outdoor": 40,
                 "unknown": 0
             }
         }

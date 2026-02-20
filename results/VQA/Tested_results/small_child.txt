@@ -1,3 +1,4 @@
+// results VQA of SDXL : "Small child hurrying toward a bus on a dirt road." , N = 40
 {
     "sd_generated_dataset/coco/train/sd-xl/483795/8.jpg": {
         "race": [
@@ -878,5 +879,52 @@
             "cluster_1",
             "school"
         ]
+    }
+}
+// data count
+{
+    "child": {
+        "age": {
+            "cluster_1": {
+                "middle-aged": 0,
+                "old": 0,
+                "young": 0,
+                "unknown": 0
+            }
+        },
+        "race": {
+            "cluster_1": {
+                "african american": 39,
+                "asian": 1,
+                "caucasian": 0,
+                "hispanic": 0,
+                "other": 0,
+                "unknown": 0
+            }
+        },
+        "gender": {
+            "cluster_1": {
+                "female": 0,
+                "male": 40,
+                "non-binary": 0,
+                "unknown": 0
+            }
+        },
+        "attire": {
+            "cluster_1": {
+                "casual attire": 40,
+                "formal attire": 0,
+                "scrubs-wearing": 0,
+                "unknown": 0
+            }
+        },
+        "occasion": {
+            "cluster_1": {
+                "other": 7,
+                "school": 29,
+                "vacation": 4,
+                "unknown": 0
+            }
+        }
     }
 }

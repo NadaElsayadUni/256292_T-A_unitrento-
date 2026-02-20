@@ -1,12 +1,44 @@
 {
-    "person": {
-        "person race": {
+    "child": {
+        "age": {
             "cluster_1": {
-                "american": 0,
+                "middle-aged": 0,
+                "old": 0,
+                "young": 0,
+                "unknown": 0
+            }
+        },
+        "race": {
+            "cluster_1": {
+                "african american": 39,
                 "asian": 1,
-                "indian": 0,
-                "middle eastern": 0,
+                "caucasian": 0,
+                "hispanic": 0,
                 "other": 0,
+                "unknown": 0
+            }
+        },
+        "gender": {
+            "cluster_1": {
+                "female": 0,
+                "male": 40,
+                "non-binary": 0,
+                "unknown": 0
+            }
+        },
+        "attire": {
+            "cluster_1": {
+                "casual attire": 40,
+                "formal attire": 0,
+                "scrubs-wearing": 0,
+                "unknown": 0
+            }
+        },
+        "occasion": {
+            "cluster_1": {
+                "other": 7,
+                "school": 29,
+                "vacation": 4,
                 "unknown": 0
             }
         }

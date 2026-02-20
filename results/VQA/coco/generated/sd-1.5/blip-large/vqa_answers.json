@@ -1,1352 +1,882 @@
 {
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/48.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/8.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
-        ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
         ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/49.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/9.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
-        ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
         ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/8.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/14.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
-        ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "african american"
         ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/9.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/28.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
-        ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
         ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "other"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/14.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/29.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/15.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/17.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/16.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/12.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
+        ],
+        "person age": [
+            "person",
+            "cluster_1",
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/13.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "female"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/28.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/39.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "other"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/29.jpg": {
-        "person gender": [
-            "person",
-            "cluster_1",
-            "female"
-        ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
-        "person age": [
-            "person",
-            "cluster_1",
-            "young"
-        ],
-        "person occupation": [
-            "person",
-            "cluster_1",
-            "software engineer"
-        ],
-        "laptop brand": [
-            "laptop",
-            "cluster_1",
-            "apple"
-        ]
-    },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/15.jpg": {
-        "person gender": [
-            "person",
-            "cluster_1",
-            "female"
-        ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
-        "person age": [
-            "person",
-            "cluster_1",
-            "young"
-        ],
-        "person occupation": [
-            "person",
-            "cluster_1",
-            "software engineer"
-        ],
-        "laptop brand": [
-            "laptop",
-            "cluster_1",
-            "dell"
-        ]
-    },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/17.jpg": {
-        "person gender": [
-            "person",
-            "cluster_1",
-            "female"
-        ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
-        "person age": [
-            "person",
-            "cluster_1",
-            "young"
-        ],
-        "person occupation": [
-            "person",
-            "cluster_1",
-            "software engineer"
-        ],
-        "laptop brand": [
-            "laptop",
-            "cluster_1",
-            "dell"
-        ]
-    },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/16.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/11.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "other"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/12.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/10.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "other"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/13.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/38.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "dell"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/39.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/21.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/11.jpg": {
-        "person gender": [
-            "person",
-            "cluster_1",
-            "female"
-        ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
-        "person age": [
-            "person",
-            "cluster_1",
-            "young"
-        ],
-        "person occupation": [
-            "person",
-            "cluster_1",
-            "software engineer"
-        ],
-        "laptop brand": [
-            "laptop",
-            "cluster_1",
-            "apple"
-        ]
-    },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/10.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/35.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "african american"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/38.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/34.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/21.jpg": {
-        "person gender": [
-            "person",
-            "cluster_1",
-            "female"
-        ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
-        "person age": [
-            "person",
-            "cluster_1",
-            "young"
-        ],
-        "person occupation": [
-            "person",
-            "cluster_1",
-            "other"
-        ],
-        "laptop brand": [
-            "laptop",
-            "cluster_1",
-            "apple"
-        ]
-    },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/35.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/20.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "other"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/34.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/36.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/20.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/22.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/36.jpg": {
-        "person gender": [
-            "person",
-            "cluster_1",
-            "female"
-        ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "asian"
-        ],
-        "person age": [
-            "person",
-            "cluster_1",
-            "young"
-        ],
-        "person occupation": [
-            "person",
-            "cluster_1",
-            "software engineer"
-        ],
-        "laptop brand": [
-            "laptop",
-            "cluster_1",
-            "apple"
-        ]
-    },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/22.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/23.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/23.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/37.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/37.jpg": {
-        "person gender": [
-            "person",
-            "cluster_1",
-            "female"
-        ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
-        "person age": [
-            "person",
-            "cluster_1",
-            "young"
-        ],
-        "person occupation": [
-            "person",
-            "cluster_1",
-            "software engineer"
-        ],
-        "laptop brand": [
-            "laptop",
-            "cluster_1",
-            "apple"
-        ]
-    },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/33.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/33.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "dell"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/27.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/27.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/26.jpg": {
-        "person gender": [
-            "person",
-            "cluster_1",
-            "female"
-        ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "asian"
-        ],
-        "person age": [
-            "person",
-            "cluster_1",
-            "young"
-        ],
-        "person occupation": [
-            "person",
-            "cluster_1",
-            "software engineer"
-        ],
-        "laptop brand": [
-            "laptop",
-            "cluster_1",
-            "apple"
-        ]
-    },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/32.jpg": {
-        "person gender": [
-            "person",
-            "cluster_1",
-            "female"
-        ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
-        "person age": [
-            "person",
-            "cluster_1",
-            "young"
-        ],
-        "person occupation": [
-            "person",
-            "cluster_1",
-            "software engineer"
-        ],
-        "laptop brand": [
-            "laptop",
-            "cluster_1",
-            "apple"
-        ]
-    },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/18.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/26.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/24.jpg": {
-        "person gender": [
-            "person",
-            "cluster_1",
-            "female"
-        ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "asian"
-        ],
-        "person age": [
-            "person",
-            "cluster_1",
-            "young"
-        ],
-        "person occupation": [
-            "person",
-            "cluster_1",
-            "software engineer"
-        ],
-        "laptop brand": [
-            "laptop",
-            "cluster_1",
-            "apple"
-        ]
-    },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/30.jpg": {
-        "person gender": [
-            "person",
-            "cluster_1",
-            "female"
-        ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
-        "person age": [
-            "person",
-            "cluster_1",
-            "young"
-        ],
-        "person occupation": [
-            "person",
-            "cluster_1",
-            "other"
-        ],
-        "laptop brand": [
-            "laptop",
-            "cluster_1",
-            "apple"
-        ]
-    },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/31.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/32.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/25.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/18.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/19.jpg": {
-        "person gender": [
-            "person",
-            "cluster_1",
-            "female"
-        ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
-        "person age": [
-            "person",
-            "cluster_1",
-            "young"
-        ],
-        "person occupation": [
-            "person",
-            "cluster_1",
-            "software engineer"
-        ],
-        "laptop brand": [
-            "laptop",
-            "cluster_1",
-            "apple"
-        ]
-    },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/42.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/24.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/4.jpg": {
-        "person gender": [
-            "person",
-            "cluster_1",
-            "female"
-        ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
-        "person age": [
-            "person",
-            "cluster_1",
-            "young"
-        ],
-        "person occupation": [
-            "person",
-            "cluster_1",
-            "software engineer"
-        ],
-        "laptop brand": [
-            "laptop",
-            "cluster_1",
-            "apple"
-        ]
-    },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/5.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/30.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/43.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/31.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/7.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/25.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "other"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/41.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/19.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "other"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/40.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/4.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/6.jpg": {
-        "person gender": [
-            "person",
-            "cluster_1",
-            "female"
-        ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
-        "person age": [
-            "person",
-            "cluster_1",
-            "young"
-        ],
-        "person occupation": [
-            "person",
-            "cluster_1",
-            "software engineer"
-        ],
-        "laptop brand": [
-            "laptop",
-            "cluster_1",
-            "dell"
-        ]
-    },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/2.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/5.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/44.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/7.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/45.jpg": {
-        "person gender": [
-            "person",
-            "cluster_1",
-            "female"
-        ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
-        "person age": [
-            "person",
-            "cluster_1",
-            "young"
-        ],
-        "person occupation": [
-            "person",
-            "cluster_1",
-            "software engineer"
-        ],
-        "laptop brand": [
-            "laptop",
-            "cluster_1",
-            "apple"
-        ]
-    },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/3.jpg": {
-        "person gender": [
-            "person",
-            "cluster_1",
-            "female"
-        ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
-        "person age": [
-            "person",
-            "cluster_1",
-            "young"
-        ],
-        "person occupation": [
-            "person",
-            "cluster_1",
-            "software engineer"
-        ],
-        "laptop brand": [
-            "laptop",
-            "cluster_1",
-            "dell"
-        ]
-    },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/47.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/6.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "other"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "dell"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/1.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/2.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/0.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/3.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
-            "person",
-            "cluster_1",
-            "caucasian"
-        ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "apple"
+            "outdoor"
         ]
     },
-    "sd_generated_dataset/coco/train/sd-1.5/2651996/46.jpg": {
+    "sd_generated_dataset/coco/train/sd-1.5/41772/1.jpg": {
         "person gender": [
             "person",
             "cluster_1",
             "male"
         ],
-        "person race": [
+        "person age": [
             "person",
             "cluster_1",
-            "caucasian"
+            "young"
+        ],
+        "motorcycle type": [
+            "motorcycle",
+            "cluster_1",
+            "dirt bike"
+        ],
+        "environment": [
+            "environment",
+            "cluster_1",
+            "outdoor"
+        ]
+    },
+    "sd_generated_dataset/coco/train/sd-1.5/41772/0.jpg": {
+        "person gender": [
+            "person",
+            "cluster_1",
+            "male"
         ],
         "person age": [
             "person",
             "cluster_1",
             "young"
         ],
-        "person occupation": [
-            "person",
+        "motorcycle type": [
+            "motorcycle",
             "cluster_1",
-            "software engineer"
+            "dirt bike"
         ],
-        "laptop brand": [
-            "laptop",
+        "environment": [
+            "environment",
             "cluster_1",
-            "hp"
+            "outdoor"
         ]
     }
 }
